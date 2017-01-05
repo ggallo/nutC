@@ -31,3 +31,6 @@ clean:
 	rm -f server.out
 	rm -f client.out
 	rm -f *~
+
+clean-debug:
+	rm -r *.dSYM
