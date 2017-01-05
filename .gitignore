@@ -24,3 +24,6 @@
 
 # Server anchor
 .server_anchor
+
+# Debug symbols
+*.dSYM
