@@ -14,7 +14,7 @@ Creates two executables, `server.out` and `client.out`.
 ```
 ./server.out <height> <width> <numAcorns>
 ```
-Starts the game on a `height` by `width` board, with <numAcorns> randomly placed around the board. Begins listening for connections, and starts the game when CLIENT_MIN clients have joined. Ends once all acorns have been collected.
+Starts the game on a `height` by `width` board, with <numAcorns> randomly placed around the board. Begins listening for connections, and starts the game when `CLIENT_MIN` clients have joined. Ends once all acorns have been collected.
 
 ### client
 ```
