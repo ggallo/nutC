@@ -4,6 +4,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <pthread.h>
 
 typedef struct {
   int** grid;
@@ -18,7 +19,7 @@ typedef struct {
 board* createBoard(int, int, int);
 
 /* Initialize the squirrel on the board in a random location.
-   Uses its msqid as an identifier */ 
+   Uses its msqid as an identifier */
 void initSquirrel(board*, int);
 
 //try to take a nut from space; return 0 on success, 1 else
